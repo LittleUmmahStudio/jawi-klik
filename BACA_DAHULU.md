@@ -64,6 +64,14 @@ npm run dev       # buka alamat yang dipaparkan pada telefon (rangkaian Wi-Fi ya
 npm run build     # hasil siap terbit dalam dist/ (source-assets/ tidak termasuk)
 ```
 
+### Terbit dalam talian (GitHub Pages)
+
+Setiap kali kod dihantar ke GitHub, game dibina dan diterbitkan secara automatik (`.github/workflows/deploy.yml`) ke:
+
+**https://littleummahstudio.github.io/jawi-klik/**
+
+Syarat sekali sahaja: repo mesti **awam**, dan dalam **Settings → Pages → Build and deployment → Source** pilih **GitHub Actions**.
+
 ### Rakaman suara (paling penting seterusnya)
 
 Rakam suara Ustazah sendiri, satu fail pendek bagi setiap suku kata, simpan sebagai MP3 dengan nama tepat:
