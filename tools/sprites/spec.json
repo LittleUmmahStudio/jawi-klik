@@ -1,0 +1,22 @@
+{
+  "avatar": {
+    "out_dir": "avatar", "ref": "avatar_idle", "height_px": 440,
+    "sheets": {
+      "avatar_idle": "avatar/avatar_idle.png",
+      "avatar_walk_side": "avatar/avatar_walk.png",
+      "avatar_writing": "avatar/avatar_writing.png"
+    },
+    "fps": {"avatar_idle": 6, "avatar_walk_side": 10, "avatar_writing": 8},
+    "loop": {"avatar_idle": true, "avatar_walk_side": true, "avatar_writing": false}
+  },
+  "guru": {
+    "out_dir": "guru-jawi", "ref": "guru_talk", "height_px": 480,
+    "sheets": {
+      "guru_idle": "guru-jawi/guru_idle.png",
+      "guru_talk": "guru-jawi/guru_talk.png",
+      "guru_point": "guru-jawi/guru_point.png"
+    },
+    "fps": {"guru_idle": 5, "guru_talk": 4, "guru_point": 6},
+    "loop": {"guru_idle": true, "guru_talk": true, "guru_point": false}
+  }
+}

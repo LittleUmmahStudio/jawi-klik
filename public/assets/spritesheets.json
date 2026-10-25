@@ -1,0 +1,74 @@
+{
+  "avatar_idle": {
+    "file": "assets/spritesheets/avatar/avatar_idle.png",
+    "frameWidth": 350,
+    "frameHeight": 466,
+    "frames": 8,
+    "columns": 4,
+    "rows": 2,
+    "originX": 0.5,
+    "originY": 0.9742,
+    "fps": 6,
+    "loop": true
+  },
+  "avatar_walk_side": {
+    "file": "assets/spritesheets/avatar/avatar_walk_side.png",
+    "frameWidth": 350,
+    "frameHeight": 466,
+    "frames": 8,
+    "columns": 4,
+    "rows": 2,
+    "originX": 0.5,
+    "originY": 0.9742,
+    "fps": 10,
+    "loop": true
+  },
+  "avatar_writing": {
+    "file": "assets/spritesheets/avatar/avatar_writing.png",
+    "frameWidth": 350,
+    "frameHeight": 466,
+    "frames": 8,
+    "columns": 4,
+    "rows": 2,
+    "originX": 0.5,
+    "originY": 0.9742,
+    "fps": 8,
+    "loop": false
+  },
+  "guru_idle": {
+    "file": "assets/spritesheets/guru-jawi/guru_idle.png",
+    "frameWidth": 460,
+    "frameHeight": 506,
+    "frames": 8,
+    "columns": 4,
+    "rows": 2,
+    "originX": 0.5,
+    "originY": 0.9763,
+    "fps": 5,
+    "loop": true
+  },
+  "guru_talk": {
+    "file": "assets/spritesheets/guru-jawi/guru_talk.png",
+    "frameWidth": 460,
+    "frameHeight": 506,
+    "frames": 8,
+    "columns": 4,
+    "rows": 2,
+    "originX": 0.5,
+    "originY": 0.9763,
+    "fps": 4,
+    "loop": true
+  },
+  "guru_point": {
+    "file": "assets/spritesheets/guru-jawi/guru_point.png",
+    "frameWidth": 460,
+    "frameHeight": 506,
+    "frames": 8,
+    "columns": 4,
+    "rows": 2,
+    "originX": 0.5,
+    "originY": 0.9763,
+    "fps": 6,
+    "loop": false
+  }
+}
