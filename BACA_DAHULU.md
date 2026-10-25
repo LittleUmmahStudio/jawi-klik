@@ -51,3 +51,39 @@ python3 tools/sprites/repack.py tools/sprites/spec.json source-assets/spriteshee
 ```
 
 (Perlu `pip install numpy scipy pillow`.)
+
+## Prototaip v0.1 (sudah dibina)
+
+Aliran: **Mula → Taman Bunyi → sentuh Guru Jawi → Dengar & Sebut → Baca & Pilih → Eja (seret/sentuh huruf) → Surih → bintang + bunga mekar**. Empat suku kata (بس، جم، چت، ݢم) = empat misi = empat bunga.
+
+### Cara jalankan
+
+```bash
+npm install
+npm run dev       # buka alamat yang dipaparkan pada telefon (rangkaian Wi-Fi yang sama)
+npm run build     # hasil siap terbit dalam dist/ (source-assets/ tidak termasuk)
+```
+
+### Rakaman suara (paling penting seterusnya)
+
+Rakam suara Ustazah sendiri, satu fail pendek bagi setiap suku kata, simpan sebagai MP3 dengan nama tepat:
+
+| Fail | Sebutan |
+|---|---|
+| `public/audio/voice/a_bas.mp3` | bas |
+| `public/audio/voice/a_jam.mp3` | jam |
+| `public/audio/voice/a_cat.mp3` | cat |
+| `public/audio/voice/a_gam.mp3` | gam |
+
+Tiada perubahan kod diperlukan. Selagi fail belum ada, game memaparkan “Rakaman suara belum ada. Minta guru sebut … dahulu.” dan menunjukkan ejaan Rumi sebagai bantuan. Efek bunyi (`public/audio/sfx/`) juga pilihan; tanpanya game menggunakan bunyi lembut yang dijana sendiri.
+
+### Keputusan dalam v0.1
+
+- **Pilih avatar** dilangkau kerana hanya satu avatar tersedia.
+- Avatar berjalan pada dataran dan laluan sahaja; tap pada rumput/air diabaikan. Sentuh **Pokok Bunyi** untuk not muzik.
+- **Saya sudah sebut** hanya penanda cubaan; bintang diberi selepas keempat-empat aktiviti siap.
+- **Baca:** dua kali salah → ejaan Rumi dan kad betul bercahaya.
+- **Eja:** huruf boleh diseret ke slot atau disentuh (masuk ke slot kosong seterusnya, dari kanan). Satu huruf pengecoh ditambah.
+- **Surih:** dikira siap apabila ~70% bentuk huruf disurih dan conteng di luar huruf tidak berlebihan. Bukan pengecaman tulisan.
+- Kemajuan (bintang, bunga) disimpan dalam peranti sahaja. Tetapan ⚙: kurangkan pergerakan, mula semula kemajuan.
+- Kandungan suku kata dalam `src/data/syllables.js`; **perlu disemak guru**.

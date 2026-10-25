@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ms">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+    <meta name="theme-color" content="#7AC8F5" />
+    <title>JawiKlik</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="world"></div>
+
+      <header id="hud">
+        <button id="btn-settings" class="hud-btn" aria-label="Tetapan">⚙</button>
+        <div id="stars" aria-label="Bintang"><span class="star-icon">★</span><span id="star-count">0</span></div>
+        <button id="btn-sound" class="hud-btn" aria-label="Bunyi">🔊</button>
+      </header>
+
+      <section id="panel" aria-live="polite"></section>
+
+      <div id="title-screen" class="overlay">
+        <div class="title-logo">
+          <h1>Jawi<span>Klik</span></h1>
+          <p class="tagline">Sentuh • Sebut • Eja • Tulis</p>
+        </div>
+        <button id="btn-start" class="btn btn-primary btn-big" disabled>Mula</button>
+        <p class="credit">Little Ummah Studio</p>
+      </div>
+
+      <div id="settings" class="overlay overlay-dim" hidden>
+        <div class="sheet">
+          <h2>Tetapan</h2>
+          <label class="toggle"><input type="checkbox" id="opt-motion" /> Kurangkan pergerakan</label>
+          <button id="btn-reset" class="btn btn-soft">Mula semula kemajuan</button>
+          <button id="btn-close-settings" class="btn btn-primary">Tutup</button>
+        </div>
+      </div>
+
+      <div id="rotate" class="overlay">
+        <div class="rotate-icon">📱</div>
+        <p>Sila tegakkan telefon untuk bermain JawiKlik</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

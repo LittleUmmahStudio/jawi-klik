@@ -1,0 +1,19 @@
+{
+  "name": "jawiklik",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@fontsource/noto-naskh-arabic": "^5.2.8",
+    "@fontsource/nunito": "^5.2.7",
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.12"
+  }
+}
